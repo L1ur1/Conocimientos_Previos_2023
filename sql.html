@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Conocimientos Previos 2023</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <p class="logo">CONOCIMIENTOS PREVIOS 2023</p>
+            <ul>
+                <li><a href="contenido/github.html">GitHub</a><img src="../icons/bxl-github.svg" width="30" height="30" alt=""></li>
+                <li><a href="contenido/html5.html">Html 5</a><img src="../icons/bxl-html5.svg" width="30" height="30" alt=""></li>
+                <li><a href="contenido/css3.html">Css 3</a><img src="../icons/bxl-css3.svg" width="30" height="30" alt=""></li>
+                <li><a href="contenido/javascript.html">JavaScript</a><img src="../icons/bxl-javascript.svg" width="30" height="30" alt=""></li>
+                <li><a href="contenido/github.html">SQL</a><img src="icons/bxl-html5.svg" width="30" height="30" alt=""></li>
+                <li><a href="contenido/github.html">MYSQL</a><img src="icons/bxl-html5.svg" width="30" height="30" alt=""></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>SQL "Structured Query Language"</h1>
+            <p>SQL es el lenguaje para administrar y consultar información de bases de datos relacionales.<br>
+                Sus siglas significan Structured Query Language (Lenguaje de Consulta Estructurado) y entre<br>
+                sus funciones permite diseñar la estructura de la Base de Datos, poblar los datos, hacer <br>
+                consultas y gestionar roles y permisos.
+            </p>
+            <p>
+                Se divide en tres tipos de lenguajes: DDL, DCL y DML.<br><br>
+            </p>
+            <ul>
+                <li>DDL (Data Definition Languaje)</li><br>
+                <li>DCL (Data Control Languaje)</li><br>
+                <li>DML (Data Manipulation Languaje)</li><br><br><br><br>
+            </ul>
+            <h2>DDL (Data Definition Language)</h2>
+            <p>El lenguaje de definición de datos puede tener algunas variaciones respecto al SMBD (Sistema Manejador de Base de Datos)<br>
+                que se utilice para manipularlo, sin embargo existe una codificación estándar que nos permite identificar una serie de<br>
+                características del lenguaje y las sentencias utilizadas en él.<br>
+                A continuación se describe la construcción de Bases de Datos, tablas, la modificación y eliminación de las mismas.<br>
+            </p>
+            <h3>CREACIÓN DE LA BASE DE DATOS</h3>
+            <p>La base de datos es la estructura de almacenamiento principal, la sentencia que se utiliza para su construcción es CREATE.<br>
+                Su sintaxis y modo de uso genérico es:<br>
+                (PONER IMAGEN)
+                <br><br>
+                Una vez que se ha construido la base de datos, se deben construir las tablas en su interior, es decir que debe<br>
+                estar predefinida o seleccionado ese espacio de trabajo.<br>
+                La sentencia que se utiliza para establecer como la base de datos activa es USE, a continuación su sintaxis:<br>
+                (PONER IMAGEN)
+                <br><br>
+            </p>
+            <h3>CREACIÓN DE LAS TABLAS</h3>
+            <p>Para construir las tablas que conforman las bases de datos, se utiliza la sentencia <strong></strong>CREATE TABLE.</strong><br>
+                Con ésta se crea la estructura de la tabla, lo cual permite definir las columnas que tiene y definir ciertas restricciones que deben cumplir esas columnas.<br><br>
+                Antes de presentar la sentencia es necesario hacer claridad respecto a las posibles restricciones que se manejan para las columnas de una tabla.<br><br>
+                Las restricciones también conocidas como constraints representan características particulares que tiene una columna y determinan entre otras,<br>
+                reglas sobre los contenidos, tipos de datos, limites, relación de la columna con otras columnas, otros registros de la misma tabla o en otras tablas.<br><br>
+                A continuación, se presenta a manera de resumen las restricciones que se pueden asignar a las columnas en una tabla,<br>
+                el nivel identifica si afecta a nivel de registro (fila).<br>
+                (PONER IMAGEN AL LADO DERECHO) 
+                (PONER IMAGEN)
+                <br><br>
+            </p>
+            <h3>CONSIDERACIONES:</h3>
+            <p>Los nombres de la tabla y columnas deben conservar las mismas características de un identificador, es decir, no espacios en blanco, de preferencia usar los nemotécnicos<br>
+                definidos en la organización, nombres significativos, no iniciar con números, etc.<br><br>
+                Los tipos de datos están directamente relacionados con el SMBD que se utilice, para los ejemplos que se presentan a continuación se utilizarán tipos de datos y expresiones propias de MySql.
+
+
+            </p>
+        </header>
+        <img class="sql" src="../img/sql.png">
+        <img class="sql1" src="../img/tipos.png" alt="">
